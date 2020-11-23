@@ -3,7 +3,7 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = 8081;
 
-const message = 'Hello Hello - I like sausages!';
+const message = 'Hello Hello from port 8081!';
 const fullMessage = `<html><body><h1>${message}</h1></body></html>\n`;
 
 const server = http.createServer((request, response) => {
